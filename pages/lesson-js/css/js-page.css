@@ -47,13 +47,13 @@ body{
     width: 260px;
 }
 
-ul{
+.ul1{
     list-style: none;
     position: relative;
     height: 95%;
 }
 
-ul li a{
+.ul1 li a{
     display: block;
     text-decoration: none;
     padding:10px;
@@ -65,7 +65,7 @@ ul li a{
     transition:.5s;
 }
 
-ul li a:hover, .active{
+.ul1 li a:hover, .active{
     background-color: #ffffff55;
 }
 
@@ -198,7 +198,8 @@ ol{
 }
 
 h2{
-    color: #0481ff;
+    color: #ffff00;
+    text-shadow: 0 10px 14px #000;
 }
 
 .con1{
@@ -238,11 +239,22 @@ p{
 }
 
 ul li::marker{
-    color: #ff4500;
+    color: #ffff00;
 }
 
-ol li::marker{
-    color: #ff4500;
+.image{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    border-width: 1px;
+
 }
 
-
+.image img{
+    border-style: solid;
+    border-color: #ffffff55;
+    border-width: 1px;
+    border-radius: 20px;
+}

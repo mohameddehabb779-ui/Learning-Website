@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Education Website</title>
+    <link rel="icon" href="assets/icon.png">
     <link rel="stylesheet" href="css/css-page.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="menu">
-        <ul>
+        <ul class="ul1">
             <li class="profile">
                 <div class="img-box">
                     <img src="assets/profile-img.jpg" alt="profile">
@@ -66,6 +67,121 @@
         <i class="fas fa-paintbrush"></i>
     </div>
 
+<div class="box">
+
+    <h2>ما هي CSS3؟</h2>
+    <div class="con1">
+          <p class="p1">CSS هي اختصار لـ Cascading Style Sheets ومعناها أوراق الأنماط المتتالية. بينما HTML تبني الهيكل العظمي للموقع، CSS تضيف الألوان والتنسيق والتصميم الجمالي</p>
+    </div>
+    <h2>أدوات التعلم</h2>
+<div class="con1">
+    <ul class="ul2">
+    <li><span style="color: #0481ff;">محرر النصوص :</span> VS Code, Atom, Sublime Text</li>
+    <li><span style="color: #0481ff;">متصفح حديث :</span> Chrome, Firefox, Edge.</li>
+    <li><span style="color: #0481ff;">DevTools :</span>اضغط F12 للتجربة المباشرة </li>
+  </ul>
+  </div>
+
+<h2>طرق ربط CSS بـ HTML</h2>
+<h2>1. Inline CSS (داخل العنصر مباشرة)</h2>
+<div class="con1">
+    <p>طريقة كتابة CSS مباشرة داخل وسم HTML باستخدام السمة style. هذه الطريقة سهلة وسريعة للتجربة لكنها غير مناسبة للمشاريع الكبيرة.</p>
+</div>
+
+<div class="con1">
+    <h2> متى نستخدمه؟</h2>
+
+<ul class="ul2">
+    <li>للتجربة السريعة فقط</li>
+    <li>عندما تحتاج لتنسيق عنصر واحد بشكل استثنائي</li>
+    <li>في البريد الإلكتروني (Email templates)</li>
+  </ul>
+
+  <h2> العيوب:</h2>
+<ul class="ul2">
+    <li>يصعب تعديل التنسيقات لأنها متناثرة في كل مكان</li>
+    <li>لا يمكن إعادة استخدام الكود</li>
+    <li>يصعب الصيانة في المشاريع الكبيرة</li>
+  </ul>
+  </div>
+  صوره
+
+
+<h2>2. Internal CSS (داخل ملف HTML)</h2>
+<div class="con1">
+<p>كتابة CSS داخل وسم style في قسم head من ملف HTML. مناسب للصفحات الصغيرة أو عندما يكون لكل صحة تنسيقات خاصة بها</p>
+</div>
+<div class="con1">
+<h2> متى نستخدمه؟</h2>
+<ul class="ul2">
+    <li>صفحات HTML منفردة (Single Page)</li>
+    <li>عندما لا تريد إنشاء ملف CSS منفصل</li>
+    <li>للنماذج الأولية (Prototypes)</li>
+  </ul>
+</div>
+
+
+<h2>3.External CSS (ملف منفصل - الأفضل)</h2>
+<div class="con1">
+<h3>إنشاء ملف منفصل بامتداد .css وربطه بملف HTML باستخدام وسم link. هذه هي الطريقة المثلى والأكثر استخداماً</h3>
+</div>
+
+<div class="con1">
+    <h2>المميزات</h2>
+<ul class="ul2">
+    <li>فصل كامل بين المحتوى (HTML) والتصميم (CSS)</li>
+    <li>عإمكانية استخدام نفس ملف CSS لعدة صفحات HTML</li>
+    <li>سهولة الصيانة والتعديل من مكان واحد</li>
+    <li>تخزين مؤقت (Caching) يحسن أداء الموقع</li>
+    <li>تنظيم أفضل للمشروع</li>
+  </ul> 
+<h2> كيفية الربط:</h2>
+<ol>
+    <li><span style="color: #0481ff;">rel="stylesheet":</span>يحدد أي عنصر HTML سيتم تنسيقه (مثل p, h1, .class, #id)</li>
+    <li><span style="color: #0481ff;">Declaration Block (كتلة التصريح):</span>محاطة بأقواس معقوفة { } تحتوي على الخصائص</li>
+    <li><span style="color: #0481ff;">Property (الخاصية):</span>ما تريد تغييره (color, font-size, background)</li>
+    <li><span style="color: #0481ff;">Value (القيمة):</span>القيمة الجديدة (red, 20px, #ffffff)</li>
+    <li><span style="color: #0481ff;">Declaration (التصريح):</span>Property + Value ينتهي بفاصلة منقوطة ;</li>
+</ol>
+
+
+</div>
+<h2>البنية الأساسية لـ CSS</h2>
+<div class="con1">
+<ul class="ul2">
+    <li><span style="color: #0481ff;">Selector (المحدد):</span> يحدد أن هذا الملف هو ورقة أنماط</li>
+    <li><span style="color: #0481ff;">href:</span>مسار ملف CSS (يمكن أن يكون نسبي أو مطلق)</li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+</div>
 
   
 
@@ -74,6 +190,8 @@
 
 </div>
 
+
+</div>
 
 
 </body>
